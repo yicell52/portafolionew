@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Portafolio</title>
+        <!-- CSS only -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
+        
+        <!--stylesheet------------->
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <!--light-slider.css------------->
+        <link rel="stylesheet" type="text/css" href="css/lightslider.css" />
+        <!--Jquery-------------------->
+        <script type="text/javascript" src="js/Jquery.js"></script>
+        <!--lightslider.js--------------->
+        <script type="text/javascript" src="js/lightslider.js"></script>
+    </head>
+    <body>
+       <header class="header">
+        <img src="img/logo.jpeg" width="80px">
+        <nav class="menu">
+              <ul>
+                  <div class="menu-items">
+                  <li><a href="#inicio">Inicio</a></li>
+                  <li><a class="iniciolist" href="#lenguajes" >Lenguajes</a></li>
+                  <li><a class="acercalist" href="#acerca" >Acerca de</a></li>
+                  <li><a class="formlist" href="#formulario" >Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+       </header>
+        <div id="inicio" class="contenedor">
+           <main class="texto">
+            <h2>Soy Yanith Rodriguez</h2>
+            <p>Estudiante y futura</br>
+             Desarrolladora full stack</p>
+           </main>
+           <aside class="foto">
+            <img src="img/imagenprincipal.jpeg" >
+           </aside>
+        </div>
+        <h2 id="lenguajes">Lenguajes de programacion vistos</h2>
+        <section class="slider">
+            <ul id="autoWidth" class="cs-hidden">
+                <!--1------------------------------------>
+                <li class="item-a">
+                    <!--box-slider--------------->
+                    <div class="box">
+                        <!--img-box---------->
+                        <div class="slide-img">
+                            <img alt="1" src="img/HTML5_logo.png" />
+                </li>
+                <!--2------------------------------------>
+                <li class="item-b">
+                    <!--box-slider--------------->
+                    <div class="box">
+                        <!--img-box---------->
+                        <div class="slide-img">
+                            <img alt="2" src="img/css.jpeg" />
+                </li>
+                <!--3------------------------------------>
+                <li class="item-c">
+                    <!--box-slider--------------->
+                    <div class="box">
+                        <!--img-box---------->
+                        <div class="slide-img">
+                            <img alt="3" src="img/JavaScript.png" />
+                </li>
+                <!--4------------------------------------>
+                <li class="item-d">
+                    <!--box-slider--------------->
+                    <div class="box">
+                        <!--img-box---------->
+                        <div class="slide-img">
+                            <img alt="4" src="img/react.svg" />
+                </li>
+                <!--5------------------------------------>
+                <li class="item-e">
+                    <!--box-slider--------------->
+                    <div class="box">
+                        <!--img-box---------->
+                        <div class="slide-img">
+                            <img alt="5" src="img/typescript.png" />
+                </li>
+                <!--6------------------------------------>
+                <li class="item-f">
+                    <!--box-slider--------------->
+                    <div class="box">
+                        <!--img-box---------->
+                        <div class="slide-img">
+                            <img alt="6" src="img/angular-logo.png" />
+                </li>
+                <!--7------------------------------------>
+                <li class="item-g">
+                    <!--box-slider--------------->
+                    <div class="box">
+                        <!--img-box---------->
+                        <div class="slide-img">
+                            <img alt="7" src="img/mysql.jpg" />
+                </li>
+                <!--8------------------------------------>
+                <li class="item-h">
+                    <!--box-slider--------------->
+                    <div class="box">
+                        <!--img-box---------->
+                        <div class="slide-img">
+                            <img alt="8" src="img/php.png" />
+                </li>
+            </ul>
+        </section>
+        <div id="acerca" class="acerca">
+            <h2>Acerca de</h2>
+            <br>
+               <p>Me considero una persona amable con muchas ganas de aprender y capacitarme siempre para lograr mis objetivos, un poco timida, pero con gran capacidad de trabajo en equipo, considero que aun tengo mucho que aprender aunque si puedo compartir mis conocimientos lo hare con todo el gusto y asi mismo recibo la ayuda y enseñanza de quien me la brinde.Actualmente estudiante del botcamp a nombre de Educamas y con todas las ganas de aprender cada dia mas.</p>
+         </div>
+         <div>
+         <h2>Proyectos</h2>
+        </div>
+        <br>
+      <section class="proyectos">
+          <div classname="primeros">
+      <div class="proyecto1">
+        <a href="https://yicell52.github.io/pag.floristeria/" alt="" target="_blank"><img src="img//pagflor.png" >
+      </div>
+      <div class="proyecto2">
+        <a href="https://crudmoviesedu.herokuapp.com/inicio" alt="" target="_blank"><img src="img/pagmovies.png" >
+      </div>
+    </div>
+    <div class="segund">
+      <br>
+        <div class="proyecto3">
+          <a href="https://mercatodo-crud.netlify.app/" alt="" target="_blank"><img src="img/pagmercatodo.png" >
+        </div>
+        <div class="proyecto4">
+          <a href="https://intopcol.netlify.app/auth/login" alt="" target="_blank"><img src="img/pagintopcol.png" ></a>
+        </div>
+    </div>
+        </section>
+      <br>
+      <br>
+      
+      <h2>Contacto</h2>
+      <section class="contact">
+          <div class="u-wrapper">
+              <div class="contact-content">
+       <form id="form" action="" class="form">
+        <h3 class="tag"><span>HABLEMOS</span></h3>
+        <label for="name">Nombre Completo <span>*</span></label>
+        <input name="name" required type="text" id="name" placeholder="tu nombre">
+        <label for="email">Correo electrónico <span>*</span></label>
+        <input name="email" type="text" id="email" required placeholder="ejemplo@gmail.com">
+        <label for="message">Mensaje</label>
+        <textarea id="message" name="message" id="" cols="30" rows="10"></textarea>
+        <button type="submit" class="btn primary full"><a href="mailto:yicell52@gmail.com" id="envio">Enviar mensaje</a></button>
+      </form>
+      
+               </div>
+          </div>
+    </section>
+
+    <section>
+        <div class="cv">
+            <a href="Docs/Hoja de Vida Desarrolador.pdf" download="cv">Descarga CV</a>
+           </div>
+      <footer class="footer">
+          <div class="logofooter">
+             <img src="img/logo.jpeg" width="70px">
+            </div>
+            <div class="derechos">
+              <p>&copy;Derechos reservados 2021.</p>
+            </div>
+            <div class="redes">
+                <a href="https://www.linkedin.com/in/yanith-rodr%C3%ADguez-4993661a8/" alt="linkedin" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a href="https://github.com/yicell52" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+                <a href="mailto:yicell52@gmail.com"><i class="fas fa-envelope-square fa-2x"></i></a>
+            </div>
+      </footer>
+    </section>
+
+        <!--script-link----------->
+        <script type="text/javascript" src="js/script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+        <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    </body>
+</html>
